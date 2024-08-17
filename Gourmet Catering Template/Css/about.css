@@ -1,0 +1,41 @@
+.img{
+    width: 50%;
+    border-radius: 30px;
+    position: relative;
+    margin: auto 0px;
+}
+.img::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+    top: 0;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+.card1{
+    width: 50%;
+}
+.card1 > h2{
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    padding: 35px 0px;
+}
+.card1 > h3{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 4px;
+    font-weight: 100;
+    padding: 35px 0px;
+}
+.card1 > p{
+    font-size: 22px;
+    text-align: justify;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-weight: normal;
+    line-height: 35px;
+}

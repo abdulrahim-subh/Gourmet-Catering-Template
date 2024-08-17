@@ -1,0 +1,68 @@
+#contact > h2{
+    font-size: 3rem;
+    text-align: left;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    padding: 35px 0px;
+}   
+#contact > p{
+    font-size: 16px;
+    text-align: justify;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-weight: normal;
+    line-height: 35px;
+}
+#contact > span{
+    font-size: 1.5rem;
+    color: rgb(61, 129, 188);
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+.name{
+    height: 55px;
+    width: 100%;
+    border: none ;
+    border-bottom: 1px solid #000 ;
+
+}
+.people{
+    height: 55px;
+    width: 100%;
+    border: none ;
+    border-bottom: 1px solid #000 ;
+}
+.datetime{
+    height: 55px;
+    width: 100%;
+    border: none ;
+    border-bottom: 1px solid #000 ;
+}
+.msg{
+    height: 55px;
+    width: 100%;
+    border: none ;
+    border-bottom: 1px solid #000 ;  
+}
+.send-btn{
+    height: 55px;
+    width: 25%;
+    background-color: #dcdcdc;
+    color: black;
+    font-size: small;
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 5px;
+    border-radius: 30px;
+    border: 2px solid #000;
+
+    &:hover{
+        background-color: #808080;
+        color: #000;
+        transition: 0.3s ;
+    }
+}

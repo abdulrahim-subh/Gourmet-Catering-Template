@@ -1,0 +1,24 @@
+.fig{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* margin-bottom: 60px; */
+}
+/* .fig-text::before {
+    content: " Data ";
+}
+.fig-text::after {
+    content: " Data ";
+    color: white;
+
+} */
+.fig-text{
+    position: absolute;
+    bottom: 40px;
+    left: 10PX;
+    font-family: "Playfair Display", serif;
+    font-weight: light;
+    font-size: 2.5rem;    
+    color: #808080 ;
+    text-transform:capitalize;
+}
